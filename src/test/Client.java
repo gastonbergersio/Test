@@ -12,12 +12,18 @@ package test;
 public class Client {
    
     private String nom;
-    public Client(String n){
+    private String prenom;
+    public Client(String n, String p){
         this.nom=n;
+        this.prenom=p;
     }
     
     public String getNom(){
         return this.nom;
+    }
+    
+      public String getPrenom(){
+        return this.prenom;
     }
         public void setNom(String n){
          this.nom=n;

@@ -16,7 +16,7 @@ public class Test {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Client c = new Client("toto");
+        Client c = new Client("toto","jean");
         c.setNom("Jean-mich");
         System.out.println(c.getNom());
     }
