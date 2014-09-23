@@ -16,5 +16,7 @@ public class Client {
         this.nom=n;
     }
     
-    
+    public String getNom(){
+        return this.nom;
+    }
 }
