@@ -19,4 +19,7 @@ public class Client {
     public String getNom(){
         return this.nom;
     }
+        public void setNom(String n){
+         this.nom=n;
+    }
 }
